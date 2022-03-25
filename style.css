@@ -1,0 +1,171 @@
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+main {
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.nav-text {
+  font-weight: 700;
+  color: #333333;
+}
+
+/* .part-one {
+  width: 100%;
+} */
+
+/* .scarecrow {
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+} */
+
+.scarecrow img {
+  height: 500px;
+  width: 500px;
+}
+
+/* .bad-news {
+  width: 100%;
+  border: 5px solid green;
+  font-size: 60px;
+  line-height: normal;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+} */
+
+.bd-text {
+  /* border: 2px solid red; */
+
+  font-size: 55px;
+  line-height: normal;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sub-text {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.home-btn {
+  border-radius: 0;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.footers {
+  /* text-align: center; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #bdbdbd;
+
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  body {
+    /* background-color: yellow; */
+  }
+
+  main {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .scarecrow img {
+    height: 200px;
+    width: 200px;
+    margin-left: 55px;
+  }
+
+  .bd-text {
+    /* border: 2px solid red; */
+
+    font-size: 45px;
+    line-height: normal;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .sub-text {
+    font-family: "Space Mono", monospace;
+    font-size: 17px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 350px) {
+  body {
+    /* background-color: red; */
+  }
+
+  main {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .scarecrow img {
+    height: 200px;
+    width: 200px;
+    margin-left: 35px;
+  }
+
+  .bd-text {
+    /* border: 2px solid red; */
+
+    font-size: 34px;
+    line-height: normal;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .sub-text {
+    font-family: "Space Mono", monospace;
+    font-size: 13px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    /* background-color: green; */
+    border-radius: 10px;
+  }
+
+  main {
+    margin-top: 50px;
+  }
+
+  .scarecrow img {
+    height: 200px;
+    width: 200px;
+    margin-left: 5px;
+  }
+
+  .bd-text {
+    /* border: 2px solid red; */
+
+    font-size: 25px;
+    line-height: normal;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .sub-text {
+    font-family: "Space Mono", monospace;
+    font-size: 10px;
+    line-height: normal;
+  }
+}
